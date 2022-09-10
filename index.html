@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🪴 CAROUSEL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="tag">
+            "BE ONE WITH CLASSIC NATURE"
+        </div>
+
+    </header>
+
+    <section class="carousel">
+        <div class="buttons">
+            <div class="move_button"onclick="prevSlide()">
+                <i class="fa-solid fa-arrow-left-long"></i>
+            </div>
+            <div class="move_button" onclick="nextSlide()">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="indicators">
+            <p onclick="moveToslide(1)"><span></span></p>
+            <p onclick="moveToslide(2)"><span></span></p>
+            <p onclick="moveToslide(3)"><span></span></p>
+            <p onclick="moveToslide(4)"><span></span></p>
+            <p onclick="moveToslide(5)"><span></span></p>
+        </div>
+        <div class="slider">
+            <div class="slider_child">
+                <img src="img4.jpeg" alt="">
+            </div>
+            <div class="slider_child">
+                <img src="tree.jpeg" alt="">
+            </div>
+            <div class="slider_child">
+                <img src="img3.jpeg" alt="">
+            </div>
+            <div class="slider_child">
+                <img src="mountain.jpeg" alt="">
+            </div>
+            <div class="slider_child">
+                <img src="img4.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
